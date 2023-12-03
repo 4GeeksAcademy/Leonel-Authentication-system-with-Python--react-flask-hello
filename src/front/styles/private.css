@@ -1,0 +1,36 @@
+.container-private{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    background-color: bisque;
+}
+
+.container-information{
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(0,0,0,0.2);
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+
+}
+
+.container-information p{
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+
+  .button-logout{
+    background-color:rgb(231, 56, 56);
+    color: #fff;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
